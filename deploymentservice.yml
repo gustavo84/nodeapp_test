@@ -33,6 +33,6 @@ spec:
   type: LoadBalancer
   ports:
   - protocol: TCP
-    port: 5000
+    port: 5010
     targetPort: 3000
-    nodePort: 31110
+    nodePort: 31120
